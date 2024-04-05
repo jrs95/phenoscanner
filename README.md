@@ -1,4 +1,4 @@
-# phenoscanner
+# phenoscanner <img src="man/figures/logo.png" align="right" height="139"/>
 R package to query the PhenoScanner database of human genotype-phenotype associations.  
 
 ## Functions
