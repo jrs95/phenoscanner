@@ -1,0 +1,22 @@
+bibentry(
+  bibtype = "Article",
+  header = "To cite `phenoscanner` in publications please use:",
+  author = c(
+    person("M.A.", "Kamat"),
+    person("J.A.", "Blackshaw"),
+    person("R.", "Young"),
+    person("P.", "Surendran"),
+    person("S.", "Burgess"),
+    person("J.", "Danesh"),
+    person("A.S.", "Butterworth"),
+    person("J.R.", "Staley")
+  ),
+  title = "PhenoScanner V2: an expanded tool for searching human genotype--phenotype associations",
+  year = 2019,
+  key = "phenoscanner",
+  doi = "10.1093/bioinformatics/btz469",
+  journal = "Bioinformatics",
+  volume = 35,
+  number = 22,
+  pages = "4851--4853"
+)
