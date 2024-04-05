@@ -1,16 +1,26 @@
 Package: phenoscanner
-Title: R package to query PhenoScanner from R
-Version: 1.0
-Author: PhenoScanner
-Maintainer: PhenoScanner <phenoscanner@gmail.com>
-Description: R package to query PhenoScanner from R.
+Title: R package to query PhenoScanner
+Version: 0.0.2
+Date: 05-04-2024
+Authors@R: c(
+    person(
+        given = "James",
+        family = "Staley",
+        email = "jrstaley95@gmail.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0009-0001-9520-5011")
+    )
+  )
+Description: R package to query the PhenoScanner database of human genotype-phenotype associations.
+License: GPL-3
+URL: https://github.com/jrs95/phenoscanner, https://jrs95.github.io/phenoscanner/
+BugReports: https://github.com/jrs95/phenoscanner/issues
 Depends:
-    R (>= 3.2.0),
-    methods
-License: GPL (>= 2)
-ByteCompile: TRUE
-LazyData: TRUE
-Encoding: UTF-8
+    R (>= 3.6.0)
 Imports: 
     rjson
-RoxygenNote: 6.0.1
+Encoding: UTF-8
+ByteCompile: true
+LazyData: true
+RoxygenNote: 7.3.1
+VignetteBuilder: knitr

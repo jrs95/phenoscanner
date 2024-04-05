@@ -4,9 +4,16 @@
 \alias{phenoscanner}
 \title{phenoscanner}
 \usage{
-phenoscanner(snpquery = NULL, genequery = NULL, regionquery = NULL,
-  catalogue = "GWAS", pvalue = 1e-05, proxies = "None", r2 = 0.8,
-  build = 37)
+phenoscanner(
+  snpquery = NULL,
+  genequery = NULL,
+  regionquery = NULL,
+  catalogue = "GWAS",
+  pvalue = 1e-05,
+  proxies = "None",
+  r2 = 0.8,
+  build = 37
+)
 }
 \arguments{
 \item{snpquery}{a vector of SNPs.}
@@ -32,28 +39,23 @@ a list containing a data.frame of association results and a data.frame of SNP/Re
 phenoscanner queries the PhenoScanner database of genotype-phenotype associations from inside R.
 }
 \examples{
+\dontrun{
 # SNP
-res <- phenoscanner(snpquery="rs10840293")
+res <- phenoscanner(snpquery = "rs10840293")
 head(res$results)
 res$snps
 
 # Gene
-res <- phenoscanner(genequery="SWAP70")
+res <- phenoscanner(genequery = "SWAP70")
 head(res$results)
-res$genes
+res$snps
 
 # Region
-res <- phenoscanner(regionquery="chr11:9685624-9774538")
+res <- phenoscanner(regionquery = "chr11:9685624-9774538")
 head(res$results)
 res$regions
-  
-# To query multiple SNPs, genes or regions, please supply a vector of SNPs, genes or regions
-# to snpquery, genequery or regionquery options, respectively. For example, to query multiple SNPs:   
-res <- phenoscanner(snpquery=c("rs10840293","rs10"))  
-head(res$results)  
-res$snps 
-
+}
 }
 \author{
-PhenoScanner <phenoscanner@gmail.com>
+James Staley \href{mailto:jrstaley95@gmail.com}{jrstaley95@gmail.com}
 }
