@@ -30,7 +30,7 @@ res <- phenoscanner(regionquery = "chr11:9685624-9774538")
 head(res$results)
 res$regions
 
-# To query multiple SNPs, genes or regions, please supply a vector of SNPs, genes or regions to snpquery, genequery or regionquery options:
+# Mulitiple SNPs
 res <- phenoscanner(snpquery = c("rs10840293", "rs10"))
 head(res$results)
 res$snp

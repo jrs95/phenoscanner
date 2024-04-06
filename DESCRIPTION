@@ -1,7 +1,7 @@
 Package: phenoscanner
 Title: R package to query PhenoScanner
 Version: 0.0.2
-Date: 05-04-2024
+Date: 06-04-2024
 Authors@R: c(
     person(
         given = "James",
