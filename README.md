@@ -30,7 +30,7 @@ res <- phenoscanner(regionquery = "chr11:9685624-9774538")
 head(res$results)
 res$regions
 
-# Mulitiple SNPs
+# Multiple SNPs
 res <- phenoscanner(snpquery = c("rs10840293", "rs10"))
 head(res$results)
 res$snp
