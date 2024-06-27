@@ -1,4 +1,7 @@
 # phenoscanner <img src="man/figures/logo.png" align="right" height="139"/>
+**The PhenoScanner database is no longer maintained.**  
+
+## Introduction
 R package to query the PhenoScanner database of human genotype-phenotype associations.  
 
 ## Functions
